@@ -35,7 +35,7 @@ public :
             return; //1.b 
         }
 
-        cout << "\nThe poped element is :" << stack_array[top] << endl; //step 2
+        cout << "\nThe poped element is :" << stack_array[top] << endl; //step 2 
         top--; // step 3 decrement
     }
 
