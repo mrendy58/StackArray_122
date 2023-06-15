@@ -84,7 +84,7 @@ int main() {
                 break;
             }
             s.pop();
-            break;
+            break; 
         case '3' :
             s.dsiplay();
             break;
