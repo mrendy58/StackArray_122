@@ -13,13 +13,15 @@ public :
     }
 
     void push() {
+        cout << "\nEnter a element :";
+        string element;
+        getline(cin, element);
+
         if (top == 4) {// step 1
             cout << "Number of Data exceeds the limit." << endl;
             
         } 
-        cout << "\nEnter a element :";
-        string element;
-        getline(cin, element);
+        
 
         top++; //step 2 
         stack_array[top] = element; // step 3
