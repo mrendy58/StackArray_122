@@ -19,7 +19,7 @@ public :
 
         if (top == 4) {// step 1
             cout << "Number of Data exceeds the limit." << endl;
-            
+            return;
         } 
         
 
