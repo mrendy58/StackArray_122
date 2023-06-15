@@ -4,7 +4,7 @@ using namespace std;
 
 class StackArray {
 private:
-    string stack_array[5];
+    string stack_array[5]; 
     int top;
 public :
     // constructor
