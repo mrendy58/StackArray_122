@@ -32,7 +32,7 @@ public :
     void pop() {
         if (empty()) { // step 1
             cout << "\nStack is empety. Cannot pop." << endl; // 1.a
-            return; //1.b
+            return; //1.b 
         }
 
         cout << "\nThe poped element is :" << stack_array[top] << endl; //step 2
